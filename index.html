@@ -96,6 +96,7 @@
             padding: 2rem;
             white-space: nowrap;
            position:fixed;
+          text-align: center;
         }
 
         .sidebar h3 {
@@ -129,35 +130,7 @@
             background-color: #f1f5f9;
         }
 
-        /* 右侧内容区：剩余宽度全占 */
-        .main-content {
-            flex: 1;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-            padding: 2rem;
-        }
-        .main-content1 {
-            background: none;
-            box-shadow: none;
-            padding: 0;
-            text-align: center; /* ✅ 新增：让内容居中 */
-        }
-      
-        .main-content img {
-            max-width: 100%;
-            height: auto;
-            margin-top: 1rem;
-            border-radius: 6px;
-        }
-
-        /* 右侧年份导航固定 */
-        .side-sticky {
-            position: -webkit-sticky;
-            position: sticky;
-            top: 100px;          /* 距离顶部多少像素开始固定 */
-            align-self: flex-start;
-        }
+   
 
         /* 新增：左右分栏固定宽度 */
         .left-panel {
